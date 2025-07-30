@@ -1,3 +1,5 @@
-# aiohttp
-# playwright
-# fake-useragent
+aiohttp
+playwright
+fake-useragent
+python-dotenv
+pytest

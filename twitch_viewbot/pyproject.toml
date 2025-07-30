@@ -1,3 +1,19 @@
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "twitch-viewbot"
+version = "0.1.0"
+description = "A Twitch viewbot that simulates viewers using websockets and headless browsers"
+authors = [{ name = "phntmzn" }]
+license = { text = "Proprietary" }
+dependencies = [
+    "aiohttp",
+    "pytest",
+    "playwright",
+    "python-dotenv"
+]
+
+[tool.setuptools]
+packages = ["bot", "core", "utils", "scripts"]
